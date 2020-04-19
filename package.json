@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "Kilian",
+    "email": "kilian@catsoft.ch"
+  },
+  "name": "##NAME",
+  "version": "0.1.0",
+  "description": "##NAME",
+  "main": "lib/index.js",
+  "module": "src/main.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"TODO: add some default scripts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KilianKilmister/##NAME.git"
+  },
+  "keywords": [
+    "##DESCRIPTION"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KilianKilmister/##NAME/issues"
+  },
+  "homepage": "https://github.com/KilianKilmister/##NAME#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "jsdoc": "^3.6.4",
+    "standard": "^14.3.3"
+  },
+}
