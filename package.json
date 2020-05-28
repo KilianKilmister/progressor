@@ -1,11 +1,8 @@
 {
-  "author": {
-    "name": "Kilian",
-    "email": "kilian@catsoft.ch"
-  },
-  "name": "##NAME",
+  "author": "Kilian <kilian@catsoft.ch>",
+  "name": "progressor",
   "version": "0.1.0",
-  "description": "##NAME",
+  "description": "A command line story telling format.",
   "main": "lib/index.js",
   "module": "src/main.js",
   "type": "module",
@@ -14,24 +11,25 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"TODO: add some default scripts\""
+    "test": "echo \"TODO: add some default scripts\"",
+    "intit": "node ./init.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KilianKilmister/##NAME.git"
+    "url": "git+https://github.com/KilianKilmister/progressor.git"
   },
   "keywords": [
-    "##DESCRIPTION"
+    "A command line story telling format."
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KilianKilmister/##NAME/issues"
+    "url": "https://github.com/KilianKilmister/progressor/issues"
   },
-  "homepage": "https://github.com/KilianKilmister/##NAME#readme",
+  "homepage": "https://github.com/KilianKilmister/progressor#readme",
   "dependencies": {},
   "devDependencies": {
     "chalk": "^4.0.0",
     "jsdoc": "^3.6.4",
     "standard": "^14.3.3"
-  },
+  }
 }

@@ -1,3 +1,3 @@
-# ##NAME
+# progressor
 
-##DESCRIPTION
+A command line story telling format.
